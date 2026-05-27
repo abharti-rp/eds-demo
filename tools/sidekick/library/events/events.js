@@ -11,8 +11,19 @@
  */
 
 // eslint-disable-next-line import/prefer-default-export
+export const APP_EVENTS = {
+  TOAST: 'Toast',
+  LIBRARY_LOADED: 'LibraryLoaded',
+  PLUGIN_LOADED: 'PluginLoaded',
+  PLUGIN_UNLOADED: 'PluginUnloaded',
+  LOCALE_SET: 'LocaleSet',
+  SEARCH_UPDATED: 'SearchUpdated',
+  ON_ACTION: 'OnAction',
+};
+
+// eslint-disable-next-line import/prefer-default-export
 export const PLUGIN_EVENTS = {
-  TOAST: 'toast',
-  SHOW_LOADER: 'show-loader',
-  HIDE_LOADER: 'hide-loader',
+  TOAST: 'Toast',
+  SHOW_LOADER: 'ShowLoader',
+  HIDE_LOADER: 'HideLoader',
 };
